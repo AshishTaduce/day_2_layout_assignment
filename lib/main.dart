@@ -33,10 +33,9 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.purple,
         body: Row(
-
-         mainAxisAlingment: MainAxisAlignment.spaceAround,
-         // mainAxisAlignment : MainAxisAlignment.spaceEvenly,
-          //mainAxisAlingment : MainAxisAlignment.spaceBetween,
+          //mainAxisAlignment: MainAxisAlignment.spaceAround,
+          //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment : MainAxisAlignment.spaceBetween,
           children: <Widget>[
             container1,
             Column(
