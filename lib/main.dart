@@ -33,13 +33,12 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.purple,
         body: Row(
+
+         mainAxisAlingment: MainAxisAlignment.spaceAround,
+         // mainAxisAlignment : MainAxisAlignment.spaceEvenly,
+          //mainAxisAlingment : MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                container1,
-              ],
-            ),
+            container1,
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -47,12 +46,7 @@ void main() {
                 container3,container4,
               ],
             ),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: <Widget>[
-                container2,
-              ],
-            ),
+            container2,
 
           ],
         ),
